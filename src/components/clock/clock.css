@@ -1,0 +1,33 @@
+.clock-box {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    border: 1px solid;
+    border-radius: 15px;
+    border-top-left-radius: 22px;
+    border-bottom-right-radius: 27px;
+    padding: 0.6rem 1.2rem 0 0;
+    background-color: rgb(165, 67, 42);
+}
+
+.screen-container {
+    border: solid;
+    border-width: 1px 1px 0 0;
+    border-radius: 10px;
+    padding: 0.2rem;
+    background-color: rgb(47, 47, 47);
+}
+
+.screen {
+    border: 1px solid;
+    padding: 0.1rem;
+    border-radius: 15px;
+    padding: 0.7rem;
+    background-color: rgb(186, 198, 202);
+    font-size: 1.4rem;
+}
+
+.screen input {
+    max-width: 3rem;
+    font-size: 1.4rem;
+}
