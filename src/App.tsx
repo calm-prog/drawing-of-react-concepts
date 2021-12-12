@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from 'react';
 
 import './App.css';
 import { Clock } from './components/clock';
@@ -8,6 +8,8 @@ import { Moon } from './components/moon';
 import { Sun } from './components/sun';
 
 function App() {
+  const [ time, setTime ] = useState(12)
+
   return (
     <>
       <div className="App">
@@ -18,7 +20,9 @@ function App() {
           <Hills />
         </div>
       </div>
-      <Clock />
+      <Clock 
+        setTime={setTime}
+      />
     </>
   );
 }
