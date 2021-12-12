@@ -1,0 +1,53 @@
+.house {
+    position: absolute;
+    height: 8rem;
+    width: 7rem;
+    right: 38%;
+    top: -2rem;
+}
+
+.frame {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 15%;
+    background-color: rgb(199, 103, 40);
+}
+
+.roof {
+    height: 6rem;
+    width: 6rem;
+    background-color: rgb(199, 103, 40);
+    right: 38%;
+    position: absolute;
+    transform: rotate(45deg);
+    top: -3rem;
+    left: 0.1rem;
+    border: solid white;
+    border-width: 0.5rem 0 0 0.5rem;
+    border-radius: 13%;
+}
+
+.door {
+    height: 3.5rem;
+    width: 1.8rem;
+    border: 1px solid #6d3939;
+    position: absolute;
+    bottom: 2rem;
+    right: 1rem;
+    border-radius: 9%;
+    background-color: rgba(199, 104, 40, 0.185);
+    
+}
+
+.window {
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    left: 2.4rem;
+    top: -1.5rem;
+    border: 1px solid #6d3939;
+    border-radius: 100%;
+}

@@ -1,0 +1,18 @@
+.hill {
+    background: green;
+    width: 75%;
+    position: absolute; 
+    bottom: 0;
+    height: 100%;
+    border-top: 0.5rem white solid;
+}
+
+.hill-1 {
+    border-top-right-radius: 100%;
+    left: 0;
+}
+
+.hill-2 {
+    border-top-left-radius: 100%;
+    right: 0;
+}
