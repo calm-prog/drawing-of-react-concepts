@@ -10,13 +10,17 @@ import { Sun } from './components/sun';
 function App() {
   const [ time, setTime ] = useState(12)
 
+  const rotation = (360 / 24) * time
+
   return (
     <>
       <div className="App">
+        <div className="rotator" style={{transform: "rotate(" + rotation + "deg)" }}>
+          <Sun />
+          <Moon rotation={rotation}/> 
+        </div>
         <div className="landscape">
           <House />
-          <Sun />
-          <Moon /> 
           <Hills />
         </div>
       </div>

@@ -4,7 +4,10 @@
     background-color: silver;
     position: absolute;
     left: 0;
-    top: 1rem;
+    right: 0;
+    top: 0;
+    margin-right: auto;
+    margin-left: auto;
     border-radius: 100%;
     transition: all 2s;
 }
